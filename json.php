@@ -10,7 +10,7 @@ $query = mysql_query('SELECT * FROM hasil');
  
 $table = array();
 $table['cols'] = array(
-/* Disini kita mendefinisikan fata pada tabel database
+/* Disini kita mendefinisikan data pada tabel database
 * masing-masing kolom akan kita ubah menjadi array
 * Kolom tersebut adalah parameter (string) dan nilai (integer/number)
 * Pada bagian ini kita juga memberi penamaan pada hasil chart nanti
